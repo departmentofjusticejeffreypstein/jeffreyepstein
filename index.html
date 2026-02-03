@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE JEFFREY EPSTEIN DIRECTORY - FraudLab</title>
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8pnEQTlXFZzuiHJpFRTqT2V8b1ZpyfO0sg&s">
+    <meta name="description" content="Access to over 5,000,000 documents related to the Jeffrey Epstein case through FraudLab.live">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #202122;
+            background: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        .page-shell {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 24px 40px;
+        }
+
+        nav {
+            background: #f8f9fa;
+            color: #202122;
+            padding: 0.6rem 0;
+            margin-bottom: 0;
+            border-bottom: 1px solid #a2a9b1;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            text-decoration: none;
+            color: #202122;
+        }
+
+        .logo-mark {
+            width: 56px;
+            height: 24px;
+            border-radius: 4px;
+            background: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #000000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+            transform: rotate(180deg);
+        }
+
+        .logo-mark-inner {
+            width: 48px;
+            height: 18px;
+            border-radius: 3px;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f9fafb;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            transform: rotate(180deg);
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .brand-title {
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+
+        .brand-subtitle {
+            font-size: 0.75rem;
+            color: #54595d;
+            letter-spacing: 0.03em;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 1.75rem 2.5rem;
+            background: #ffffff;
+            border-radius: 2px;
+            margin-bottom: 1.5rem;
+            border: 1px solid #c8ccd1;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #202122;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+        }
+
+        .content-section {
+            background: #ffffff;
+            padding: 2.5rem 2rem;
+            border-radius: 2px;
+            margin-bottom: 1.75rem;
+            border: 1px solid #c8ccd1;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #202122;
+            text-align: center;
+        }
+
+        .content-section p {
+            font-size: 1.1rem;
+            color: #202122;
+            margin-bottom: 1.25rem;
+            line-height: 1.8;
+        }
+
+        .content-section p strong {
+            color: #3366cc;
+            font-weight: 600;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1.25rem 3rem;
+            background: #dd3333;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(221, 51, 51, 0.3);
+            margin-top: 2rem;
+        }
+
+        .cta-button:hover {
+            background: #c02121;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(221, 51, 51, 0.4);
+        }
+
+        .cta-button:active {
+            transform: translateY(0);
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 2.5rem;
+        }
+
+        .footer {
+            margin-top: 2.5rem;
+            padding: 1.2rem 0 1rem;
+            border-top: 1px solid #c8ccd1;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #54595d;
+        }
+
+        @media (max-width: 900px) {
+            .hero {
+                padding: 2rem 1.25rem 1.8rem;
+            }
+            .hero h1 {
+                font-size: 2.1rem;
+            }
+            .content-section {
+                padding: 2rem 1.5rem;
+            }
+            .content-section h2 {
+                font-size: 1.5rem;
+            }
+            .content-section p {
+                font-size: 1rem;
+            }
+            .cta-button {
+                padding: 1rem 2rem;
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .content-section {
+                padding: 1.5rem 1.25rem;
+            }
+            .content-section h2 {
+                font-size: 1.3rem;
+            }
+            .content-section p {
+                font-size: 0.95rem;
+            }
+            .cta-button {
+                padding: 0.9rem 1.5rem;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page-shell">
+<nav>
+    <div class="container">
+        <div class="brand">
+            <div class="logo-mark">
+                <div class="logo-mark-inner">
+                    JED
+                </div>
+            </div>
+            <div class="brand-text">
+                <div class="brand-title">JEFFREY EPSTEIN DIRECTORY</div>
+                <div class="brand-subtitle">The truth is now revealed</div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="hero">
+        <h1>THE JEFFREY EPSTEIN DIRECTORY</h1>
+    </div>
+
+    <div class="content-section">
+        <h2>About FraudLab.live</h2>
+        <p>
+            <strong>FraudLab.live</strong> is a comprehensive document intelligence platform providing unprecedented access to one of the largest collections of documents related to the Jeffrey Epstein case.
+        </p>
+        <p>
+            Our platform offers access to <strong>over 5,000,000 documents</strong> including court filings, depositions, financial records, flight logs, investigative archives, and other critical materials related to this significant case.
+        </p>
+        <p>
+            The application features powerful search capabilities, AI-analyzed document summaries, entity extraction, and comprehensive indexing that allows researchers, journalists, and the public to explore and understand the extensive documentation surrounding this case.
+        </p>
+        <p>
+            All documents are processed and analyzed using advanced document intelligence systems, making it easier to navigate through the vast archive and discover connections, timelines, and key information.
+        </p>
+        <div class="button-container">
+            <a href="https://fraudlab.live" class="cta-button">ACCESS THE RESOURCES</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>The Jeffrey Epstein Directory is built on a powerful search system that scans millions of documents and archived records.</div>
+        <div style="margin-top: 0.5rem; font-size: 0.85rem;">
+            <div>This directory is managed by independent journalists in the United States.</div>
+            <div style="margin-top: 0.25rem;">
+                <strong>Contact:</strong>
+                <a href="mailto:truths@fraudlab.live" style="color: #0645ad; text-decoration: none;">truths@fraudlab.live</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+
